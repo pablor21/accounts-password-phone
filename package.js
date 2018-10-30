@@ -17,7 +17,7 @@ Npm.depends({
 });
 
 Package.onUse(api => {
-
+  api.versionsFrom('1.8');
   api.use('npm-bcrypt', 'server');
 
   api.use([
